@@ -1,0 +1,46 @@
+{
+  "name": "mathts",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "npx webpack",
+    "serve": "node dist/index.js",
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "keywords": [
+    "typescript",
+    "math",
+    "mathematics",
+    "functions",
+    "numeric",
+    "algebra",
+    "parser",
+    "expression",
+    "number",
+    "complex",
+    "fraction",
+    "matrix",
+    "unit"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samavati/test.git"
+  },
+  "author": "Ehsan Samavati <samaavaati@gmail.com> (https://github.com/samavati)",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^24.0.25",
+    "@types/node": "^13.5.0",
+    "jest": "^24.9.0",
+    "source-map-loader": "^0.2.4",
+    "terser-webpack-plugin": "^2.3.2",
+    "ts-jest": "^24.2.0",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.6.2",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8"
+  }
+}
