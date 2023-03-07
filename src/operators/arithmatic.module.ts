@@ -31,6 +31,7 @@ export function add(x: any, y: any) {
     if (typeof x === 'number' && typeof y === 'number') {
         return x + y;
     }
+    return x+y
 }
 
 /**
@@ -66,6 +67,7 @@ export function multiply(x: any, y: any) {
         const imaginaryPart = x.real() * y.imaginary() + x.imaginary() * y.real();
         return new Complex(Math.round(realPart), Math.round(imaginaryPart));
     }
+    throw 'error'
 }
 
 /**
